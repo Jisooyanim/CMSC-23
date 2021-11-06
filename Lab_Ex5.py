@@ -39,7 +39,8 @@ def fibonacciSequence(n):
     if n <= 0:
         return seq
     elif n == 1:
-        return first_term
+        seq.append(first_term)
+        return seq
     else:
         seq.append(first_term)
         seq.append(second_term)
